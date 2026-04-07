@@ -491,21 +491,30 @@ function App() {
           </div>
         </section>
 
-        <section className="bg-gradient-to-r from-[#0C5E49] via-[#0F6E56] to-[#0A4735] px-6 py-24 text-white md:px-10 lg:px-16">
-          <div className="mx-auto max-w-7xl rounded-[36px] bg-white/5 px-8 py-14 shadow-soft sm:px-12">
-            <div className="text-center">
-              <h2 className="text-3xl font-semibold sm:text-4xl">Let's Build a Better Tomorrow — Together</h2>
-              <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-white/80">
-                Every contribution counts. Every effort matters.
-              </p>
-              <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-saaf-teal transition hover:bg-slate-100">
-                  Support the Cause
-                </a>
-                <a href="#contact" className="inline-flex items-center justify-center rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
-                  Get Involved
-                </a>
-              </div>
+        <section className="relative overflow-hidden bg-[linear-gradient(to_right,#0f3d2e,#14532d)] px-6 py-[100px] text-white md:px-10 lg:px-16">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[rgba(93,202,165,0.08)] blur-[100px]"></div>
+          </div>
+          <div className="relative mx-auto max-w-[700px] text-center">
+            <h2 className="mb-5 font-serif text-[40px] leading-[1.3] text-white md:text-[44px]">
+              Let's Build a Better Tomorrow—Together
+            </h2>
+            <p className="mb-[35px] text-[16px] leading-[1.7] text-[rgba(255,255,255,0.9)] md:text-[18px]">
+              Every contribution counts. Every effort matters. Join us in making a difference.
+            </p>
+            <div className="flex flex-col items-center gap-[18px] sm:flex-row sm:justify-center">
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center rounded-[999px] bg-white px-[26px] py-[12px] text-[15px] font-medium text-[#0f3d2e] shadow-lg transition-all duration-300 hover:-translate-y-[2px] hover:shadow-xl"
+              >
+                Support the Cause
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center rounded-[999px] border border-[rgba(255,255,255,0.6)] bg-transparent px-[26px] py-[12px] text-[15px] font-medium text-white transition-all duration-300 hover:bg-[rgba(255,255,255,0.1)]"
+              >
+                Get Involved
+              </a>
             </div>
           </div>
         </section>
